@@ -1,0 +1,170 @@
+
+Only you can see this message. Congratulations on earning this certification. It's no easy task. Running freeCodeCamp isn't easy either. Nor is it cheap. Help us help you and many other people around the world. Make a tax-deductible supporting donation to our charity today.
+
+Confirm your donation of $5 / month:
+  Secure donation
+
+Or donate with card
+Issued July 7, 2023
+This certifies that
+Oshani
+has successfully completed the freeCodeCamp.org
+Responsive Web Design
+Developer Certification, representing approximately 300 hours of coursework.
+Quincy Larson's Signature
+Quincy Larson
+
+Executive Director, freeCodeCamp.org
+
+Verify this certification at https://freecodecamp.org/certification/Oshani/responsive-web-design
+
+As part of this certification, Oshani built the following projects and got all automated test suites to pass:
+Certifications
+Build a Survey Form	
+View Solution for Build a Survey Form
+Build a Tribute Page	
+View Solution for Build a Tribute Page
+Build a Technical Documentation Page	
+View Solution for Build a Technical Documentation Page
+Build a Product Landing Page	
+View Solution for Build a Product Landing Page
+Build a Personal Portfolio Webpage	
+View Solution for Build a Personal Portfolio Webpage
+If you suspect that any of these projects violate the academic honesty policy, please report this to our team.
+×Close
+Solution for Build a Tribute Page
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title id="title">..</title>
+<meta name="viewport" 
+content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<body>
+  <main id="main">
+
+    
+      <h1 id=title>Dr. Norman Borlaug</h1>
+      <p>The man who saved a billion lives</p>
+     
+
+     <figure id="img-div">
+     <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Image">
+     <figcaption id="img-caption">"Dr. Norman Borlaug ,third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.
+     </figcaption>
+     </figure>
+     <section id="tribute-info"><h3 id="bold">Here's a time line of Dr.Borlaug's life:</h3>
+      
+     <ul>
+      <li><span id="bold">1913</span>- Born in Cresco,Iowa</li>
+      <li><span id="bold">1933</span>- Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
+      <li><span id="bold">1935</span>- Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this leftscars on me."</li>
+      <li><span id="bold">1937</span>- Finishes university and takes a job in the US Forestry Service </li>
+      
+     </ul>
+     
+     </section>
+    <h2>If you have time, you should read more about this incredible human being on his<a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug"target="_blank">Wikipedia entry.</a></h2>
+
+
+  </main>
+</body>
+</html>
+CSS
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family:Sego Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+h3{
+  font-size:28px;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  text-decoration:none;
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
